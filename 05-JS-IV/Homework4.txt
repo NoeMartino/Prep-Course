@@ -1,0 +1,8 @@
+Objetos: Es una colección de propiedades.
+Propiedades: Asociación entre un nombre y un valor.
+Métodos: Son las funciones guardadas como propiedad dentro de un objeto.
+Bucle for…in: Es el tipo de bucle utilizado para recorrer objetos, ya que el bucle for no funciona con ellos. Comienza igual pero después se declara una variable, luego la palabra clave in y por último el nombre del objeto:
+for (let clave in objeto){}
+Notación de puntos vs notación de corchetes: Dos formas de acceder a las propiedades de los objetos
+Ejemplo de notación de puntos: objeto.nombreDeLaPropiedad
+Ejemplo de notación de corchetes: objeto["nombreDeLaPropiedad"]

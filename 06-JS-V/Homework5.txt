@@ -1,0 +1,2 @@
+Prototype: Todos los objetos tienen una referencia a otro objeto llamado prototipo. Las clases tienen una forma única de establecer un método una vez y dar acceso a cada objeto de esa clase a esos métodos. Esto se llama el prototype.
+Constructors (de clases): Las clases son útiles para crear muchos objetos que comparten algunas de las mismas propiedades y métodos, en lugar de copiarlos una y otra vez. Esto se hace utilizando el constructor.

@@ -1,0 +1,5 @@
+For: Es un bucle que sirve para hacer tareas repetitivas. Se ejecutará repetidamente mientras la expresión que contiene sea verdadera.
+&&, ||, ! : Son operadores lógicos, obedecen a la lógica booleana.
+&&: Significa Y. Para que sea verdadero, las expresiones que compara deben ser ambas verdaderas. De otra manera, el resultado será falso.
+||: Significa O. Si alguna de las expresiones que compara es verdadera, dará un resultado verdadero. Sólo da un resultado falso si ambas expresiones que compara son falsas.
+!: Significa NO. Devolverá el resultado contrario.

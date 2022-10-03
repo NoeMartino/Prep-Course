@@ -1,0 +1,1 @@
+Arrays: Es una colección de datos. Para establecer un array (arreglo) se declara una variable y se encierran entre [] los diferentes tipos de datos separados por comas, que pueden ser tanto strings, como números, como valores booleanos, o valores null o undefined y hasta funciones y otros arreglos. Establecer un array permite acceder a esos datos fácilmente.

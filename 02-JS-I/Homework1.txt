@@ -1,0 +1,10 @@
+Variable: Guarda alguna información para después poder recuperarla. Tiene un nombre y un valor.
+Strings: Es un tipo de dato que se maneja en JavaScript. Son bloques de texto que se escriben entre comillas.
+Otros tipos de datos que se usan en JavaScript son números y valores booleanos.
+Funciones: Es una porción de código agrupado y guardado dentro de ella para poder ejecutarlo y reutilizarlo fácilmente despúes.
+Esto nos evita estar escribiendo el mismo código una y otra vez. Las funciones tienen un nombre y pueden tener uno o varios argumentos.
+Los argumentos son las variables que declaramos adentro de la función y toman valor cuando invoco la función y defino el valor.
+Return es una declaración que se llama cuando queremos que la función nos regrese información, como un resultado.
+Declaraciones if: La sentencia condicional if se usa para tomar decisiones, evalúa una operación lógica, es decir
+una expresión que dé como resultado True o False , y ejecuta la pieza de código siguiente siempre y cuando el resultado sea verdadero.
+Valores booleanos: Es un tipo de dato que se maneja en JavaScript que tiene dos valores: true (verdadero) o false (falso).

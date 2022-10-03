@@ -1,0 +1,1 @@
+Funciones Callback: Cuando una función se pasa como argumento a otra función, estas funciones se denominan callbacks. Pueden llamarse en cualquier momento y pasar argumentos dentro de la función. La convención es usar cb como argumento para la variable que se usará de callback. Es importante documentar para saber qué función está siendo utilizada como callback de otra.
