@@ -7,9 +7,7 @@ function obtenerMayor(x, y) {
   // Tu código:
   if (x >= y){
     return x
-  } else {
-    return y
-  }
+  } else return y
 }
 
 function mayoriaDeEdad(edad) {
@@ -27,9 +25,9 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
-  if (status == 1){
+  if (status === 1){
     return "Online"
-  } else if (status == 2){
+  } else if (status === 2){
     return "Away"
   } else return "Offline"
 }
@@ -41,11 +39,11 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma == "aleman"){
+  if (idioma === "aleman"){
     return "Guten Tag!"
-  } else if (idioma == "mandarin"){
+  } else if (idioma === "mandarin"){
     return "Ni Hao!"
-  } else if (idioma == "ingles"){
+  } else if (idioma === "ingles"){
     return "Hello!"
   } else return "Hola!"
 }
@@ -80,7 +78,7 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero == 10 || numero == 5){
+  if (numero === 10 || numero === 5){
     return true
   } else return false
 }
@@ -102,7 +100,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero - Math.floor(numero) == 0){
+  if (numero - Math.floor(numero) === 0){
     return true
   } else return false
 }
@@ -145,12 +143,12 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  if (numero == 2){
+  if (numero === 2){
     return true
   } else if (numero < 2) {
     return false
   } for (let i = 2; i < numero; i++){
-      if (numero % i == 0){
+      if (numero % i === 0){
       return false
       }
     }
@@ -161,7 +159,7 @@ function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
-  if (valor == true){
+  if (valor === true){
     return "Soy verdadero"
   } else return "Soy falso"
 }
