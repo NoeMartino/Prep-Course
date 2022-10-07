@@ -85,7 +85,7 @@ function verificarPassword (usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (usuario["password"] == password){
+  if (usuario["password"] === password){
     return true
   } else return false
 }
@@ -144,7 +144,7 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
   producto.calcularPrecioDescuento = function (){
-    return producto.precio - (producto.precio * producto.porcentajeDeDescuento)
+    return this.precio - (this.precio * this.porcentajeDeDescuento)
   }
   return producto
 }
